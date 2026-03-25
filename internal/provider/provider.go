@@ -137,6 +137,7 @@ func (p *sendgridProvider) Resources(ctx context.Context) []func() resource.Reso
 		newTeammateResource,
 		newAPIKeyResource,
 		newSubuserResource,
+		newSubuserWhitelabelDomainResource,
 		newSenderAuthenticationResource,
 		newLinkBrandingResource,
 		newSenderVerificationResource,
